@@ -1,3 +1,10 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(blue, pink); //le meti un color de fondo bonito
+}
+
 input {
   width: 500px;
   height: 40px;
@@ -5,7 +12,7 @@ input {
 }
 
 #lista-de-productos {
-  display: flex
+  display:inline-table; // acomodo los productos en tablas 
 }
 
 .producto {
